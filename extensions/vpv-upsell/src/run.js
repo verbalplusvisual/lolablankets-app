@@ -33,7 +33,7 @@ export function run(input) {
     discountApplicationStrategy: DiscountApplicationStrategy.First,
     discounts: upsellTargets.length > 0 ? [
       {
-        message: "Upsell $10% Off",
+        message: "Upsell $10 Off",
         targets: upsellTargets,
         value: {
           fixedAmount: {
